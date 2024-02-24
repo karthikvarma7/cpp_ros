@@ -1,0 +1,8 @@
+prefix=/home/karthik/catkin_ws/devel
+
+Name: boustrophedon_server
+Description: Description of boustrophedon_server
+Version: 0.0.1
+Cflags: -I/home/karthik/catkin_ws/src/boustrophedon_planner/boustrophedon_server/include
+Libs: -L${prefix}/lib 
+Requires: roscpp boustrophedon_msgs actionlib tf geometry_msgs nav_msgs rosparam_shortcuts
